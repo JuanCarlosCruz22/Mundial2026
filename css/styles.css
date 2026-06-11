@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    background-image: url('../img/logomundial.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 200px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #e63946;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #a8dadc;
+}
+
+nav {
+    background-color: #e63946;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #1a1a2e;
+}
+
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section#sedes ol {
+    margin-left: 30px;
+    line-height: 2em;
+}
+
+section#sedes {
+    text-align: center;
+}
+
+section#sedes ol {
+    display: inline-block;
+    text-align: left;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #e63946;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e63946;
+    padding-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #e63946;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+img {
+    width: 45%;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.card {
+    background-color: #1a1a2e;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #e63946;
+}
+
+.card h3 {
+    color: #e63946;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
